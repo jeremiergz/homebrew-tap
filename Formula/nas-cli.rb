@@ -1,12 +1,12 @@
 class NasCli < Formula
   desc "CLI application for managing my NAS."
   homepage "https://github.com/jeremiergz/nas-cli"
-  url "https://github.com/jeremiergz/nas-cli/releases/download/21.04.4/nas-cli-darwin-amd64"
+  url "https://github.com/jeremiergz/nas-cli/releases/download/21.04.5/nas-cli-darwin-amd64"
   head "https://github.com/jeremiergz/nas-cli.git"
-  sha256 "65bb1a8006c0ae1ad89aba16692995fde35138edfc4abdaca51a7bbc23b44314"
+  sha256 "06c798f51152bea39b1cf0c93fea5b5a991184958a0934884ff320b950005e16"
   license "Apache-2.0"
 
-  version "21.04.4"
+  version "21.04.5"
   conflicts_with "nas-cli"
   bottle :unneeded
 
